@@ -1,0 +1,36 @@
+# DELM - Design Experience Language Model
+# Optimized for Apple Silicon
+
+# Core ML Libraries
+mlx>=0.4.0
+mlx-lm>=0.4.0
+transformers>=4.36.0
+
+# Vector Database & Embeddings (Apple Silicon native)
+lancedb>=0.4.0
+sentence-transformers>=2.2.2
+pyarrow>=14.0.0
+
+# API & Server
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# Utilities
+numpy>=1.24.0
+tiktoken>=0.5.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+PyYAML>=6.0.1
+
+# Data Processing
+pandas>=2.1.0
+beautifulsoup4>=4.12.0
+
+# Image Generation
+Pillow>=10.0.0
+playwright>=1.40.0
+cairosvg>=2.7.0
+
+# AI Image Generation (Stable Diffusion via MLX)
+mflux>=0.3.0
